@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7d68c97d2f.js" crossorigin="anonymous"></script>
+    <style>
+        
+        body{
+            display: flex;
+            background-color: rgb(158, 101, 174);
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        .mobile{
+            background-color: aliceblue;
+            align-items: center;
+            border-radius: 10px;
+            height: 480px;
+            width: 290px;
+            border: 4px solid white;
+
+        }
+        .screen{
+            background-color: aqua;
+            height: 85%;
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+        .navigation{
+            display: flex;
+            height: 15%;
+        
+        }
+        .nav-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color:lightslategray;
+            /*padding: 16px 20px;*/
+            width: 25%;
+            justify-content: center;
+            
+        }
+        .nav-item:hover{
+            color: rgb(149, 78, 215);
+        }
+        .image{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="mobile">
+        <div class="screen">
+            <img class="image" src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" alt="">
+        </div>
+        <nav class="navigation">
+            
+            <div class="nav-item"><i class="fas fa-home"></i>Home </div>
+            <div class="nav-item"><i class="fa fa-box"></i>Work</div>
+            <div class="nav-item"><i class="fa fa-book-open"></i>Blog</div>
+            <div class="nav-item"><i class="fa fa-users"></i>About Us</div>
+        </nav>
+
+    </div>
+</body>
+</html>
